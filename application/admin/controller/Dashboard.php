@@ -50,7 +50,7 @@ class Dashboard extends Backend
             'uploadmode'       => $uploadmode
         ]);
 
-        return $this->view->fetch();
+        return $this->view->fetch();//
     }
 
 }
