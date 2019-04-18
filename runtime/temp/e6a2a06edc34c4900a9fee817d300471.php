@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:95:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\public/../application/admin\view\dashboard\index.html";i:1555568291;s:84:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\layout\default.html";i:1554882264;s:81:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\meta.html";i:1554882264;s:83:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\script.html";i:1554882264;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:95:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\public/../application/admin\view\dashboard\index.html";i:1555581548;s:84:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\layout\default.html";i:1554882264;s:81:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\meta.html";i:1554882264;s:83:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\script.html";i:1554882264;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -174,18 +174,9 @@
         padding:30px 0;
     }
 </style>
-<?php if(preg_match('/\/admin\/|admin\.php|admin_d75KABNWt\.php/i', url())): ?>
-<div class="alert alert-danger-light">
-    <?php echo __('Security tips'); ?>
-</div>
-<?php endif; ?>
 <div class="panel panel-default panel-intro">
     <div class="panel-heading">
         <?php echo build_heading(null, false); ?>
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="#one" data-toggle="tab"><?php echo __('Dashboard'); ?></a></li>
-            <li><a href="#two" data-toggle="tab"><?php echo __('Custom'); ?></a></li>
-        </ul>
     </div>
     <div class="panel-body">
         <div id="myTabContent" class="tab-content">
@@ -382,90 +373,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--如果需要删除最新新闻和最新发贴，删除HTML后还需要删除dashboard.js中的代码-->
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="box box-danger">
-                            <div class="box-header">
-                                <h3 class="box-title"><?php echo __('Recent news'); ?></h3>
-                                <div class="box-tools pull-right">
-                                    <a href="https://www.fastadmin.net" target="_blank" class="btn btn-box-tool"><?php echo __('More'); ?></a>
-                                </div>
-                            </div>
-                            <div class="box-body" id="news-list">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="box box-success">
-                            <div class="box-header">
-                                <h3 class="box-title"><?php echo __('Recent discussion'); ?></h3>
-                                <div class="box-tools pull-right">
-                                    <a href="https://forum.fastadmin.net" class="btn btn-box-tool"><?php echo __('More'); ?></a>
-                                </div>
-                            </div>
-                            <div class="box-body" id="discussion-list">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="box box-info">
-                            <div class="box-header"><h3 class="box-title"><?php echo __('Server info'); ?></h3></div>
-                            <div class="box-body">
-                                <table class="table table-striped">
-                                    <tbody>
-                                        <tr>
-                                            <td width="140"><?php echo __('FastAdmin version'); ?></td>
-                                            <td><?php echo \think\Config::get('fastadmin.version'); ?> <a href="javascript:;" class="btn btn-xs btn-checkversion">检查最新版</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><?php echo __('FastAdmin addon version'); ?></td>
-                                            <td><?php echo $addonversion; ?></td>
-                                        </tr>
-                                        <tr>
-                                            <td><?php echo __('Sapi name'); ?></td>
-                                            <td><?php echo php_sapi_name(); ?></td>
-                                        </tr>
-                                        <tr>
-                                            <td><?php echo __('Debug mode'); ?></td>
-                                            <td><?php echo \think\Config::get('app_debug')?__('Yes'):__('No'); ?></td>
-                                        </tr>
-                                        <tr>
-                                            <td><?php echo __('Software'); ?></td>
-                                            <td><?php echo \think\Request::instance()->server('SERVER_SOFTWARE'); ?></td>
-                                        </tr>
-                                        <tr>
-                                            <td><?php echo __('Upload mode'); ?></td>
-                                            <td><?php echo $uploadmode; ?></td>
-                                        </tr>
-                                        <tr>
-                                            <td><?php echo __('Upload url'); ?></td>
-                                            <td><?php echo $config['upload']['uploadurl']; ?></td>
-                                        </tr>
-                                        <tr>
-                                            <td><?php echo __('Upload Cdn url'); ?></td>
-                                            <td><?php echo $config['upload']['cdnurl']; ?></td>
-                                        </tr>
-                                        <tr>
-                                            <td><?php echo __('Timezone'); ?></td>
-                                            <td><?php echo date_default_timezone_get(); ?></td>
-                                        </tr>
-                                        <tr>
-                                            <td><?php echo __('Cdn url'); ?></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td><?php echo __('Language'); ?></td>
-                                            <td><?php echo $config['language']; ?></td>
-                                        </tr>
-                                    </tbody></table>
                             </div>
                         </div>
                     </div>

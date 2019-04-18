@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:91:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\public/../application/index\view\index\index.html";i:1554882264;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:91:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\public/../application/index\view\index\index.html";i:1555579069;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -35,21 +35,7 @@
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-menu">
                         <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top"><img src="/assets/img/logo.png" style="width:200px;" alt=""></a>
-                </div>
-
-                <div class="collapse navbar-collapse" id="navbar-collapse-menu">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://www.fastadmin.net" target="_blank"><?php echo __('Home'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/store.html" target="_blank"><?php echo __('Store'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/wxapp.html" target="_blank"><?php echo __('Wxapp'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/service.html" target="_blank"><?php echo __('Services'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/download.html" target="_blank"><?php echo __('Download'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/demo.html" target="_blank"><?php echo __('Demo'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/donate.html" target="_blank"><?php echo __('Donation'); ?></a></li>
-                        <li><a href="https://forum.fastadmin.net" target="_blank"><?php echo __('Forum'); ?></a></li>
-                        <li><a href="https://doc.fastadmin.net" target="_blank"><?php echo __('Docs'); ?></a></li>
-                    </ul>
+                    <a class="navbar-brand page-scroll" href="#page-top"><img src="/assets/img/hanxiaoer.png" style="width:200px;" alt=""></a>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
@@ -62,10 +48,10 @@
                     <div class="col-sm-12">
                         <div class="header-content">
                             <div class="header-content-inner">
-                                <h1>FastAdmin</h1>
-                                <h3><?php echo __('The fastest framework based on ThinkPHP5 and Bootstrap'); ?></h3>
+                                <h1></h1>
+                                <h3>憨小二坛子焖肉</h3>
                                 <a href="<?php echo url('admin/index/login'); ?>" class="btn btn-warning btn-xl page-scroll"><?php echo __('Go to Dashboard'); ?></a>
-                                <a href="<?php echo url('index/user/index'); ?>" class="btn btn-outline btn-xl page-scroll"><?php echo __('Go to Member center'); ?></a>
+                                <!--<a href="<?php echo url('index/user/index'); ?>" class="btn btn-outline btn-xl page-scroll"><?php echo __('Go to Member center'); ?></a>-->
                             </div>
                         </div>
                     </div>
