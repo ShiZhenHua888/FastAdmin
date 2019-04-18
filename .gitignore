@@ -2,9 +2,7 @@
 
 *.idea
 
-runtime/
-
-runtime/temp/
+runtime/*
 
 thinkphp/
 
