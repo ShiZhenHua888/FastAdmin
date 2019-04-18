@@ -1,3 +1,7 @@
 .idea
+composer.lock
+*.log
 thinkphp
 runtime
+vendor
+.DS_Store
