@@ -1,7 +1,7 @@
 .idea
 composer.lock
-*.log
-thinkphp
-runtime
-vendor
+*.log：
+/thinkphp：
+/runtime：
+/vendor：
 .DS_Store
