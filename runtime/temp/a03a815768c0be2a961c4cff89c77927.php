@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:91:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\public/../application/admin\view\index\index.html";i:1555579665;s:81:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\meta.html";i:1554882264;s:83:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\header.html";i:1555581385;s:81:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\menu.html";i:1555581385;s:84:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\control.html";i:1554882264;s:83:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\script.html";i:1554882264;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:91:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\public/../application/admin\view\index\index.html";i:1555579665;s:81:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\meta.html";i:1554882264;s:83:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\header.html";i:1555581888;s:81:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\menu.html";i:1555582040;s:84:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\control.html";i:1554882264;s:83:"E:\phpstudy\PHPTutorial\WWW\git\fastadmin\application\admin\view\common\script.html";i:1554882264;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -31,9 +31,9 @@
                 <!-- Logo -->
 <a href="javascript:;" class="logo">
     <!-- 迷你模式下Logo的大小为50X50 -->
-    <span class="logo-mini"><?php echo mb_strtoupper(mb_substr($site['name'],0,4,'utf-8'),'utf-8'); ?></span>
+    <span class="logo-mini">憨小二后台</span>
     <!-- 普通模式下Logo -->
-    <span class="logo-lg"><b><?php echo mb_substr($site['name'],0,4,'utf-8'); ?></b><?php echo mb_substr($site['name'],4,null,'utf-8'); ?></span>
+    <span class="logo-lg"><b>憨小二后台</b></span>
 </a>
 
 <!-- 顶部通栏样式 -->
@@ -115,20 +115,6 @@
                                 <small><?php echo date("Y-m-d H:i:s",$admin['logintime']); ?></small>
                             </p>
                         </li>
-                        <!-- Menu Body -->
-                        <li class="user-body">
-                            <div class="row">
-                                <div class="col-xs-4 text-center">
-                                    <a href="https://www.fastadmin.net" target="_blank"><?php echo __('FastAdmin'); ?></a>
-                                </div>
-                                <div class="col-xs-4 text-center">
-                                    <a href="https://forum.fastadmin.net" target="_blank"><?php echo __('Forum'); ?></a>
-                                </div>
-                                <div class="col-xs-4 text-center">
-                                    <a href="https://doc.fastadmin.net" target="_blank"><?php echo __('Docs'); ?></a>
-                                </div>
-                            </div>
-                        </li>
                         <!-- Menu Footer-->
                         <li class="user-footer">
                             <div class="pull-left">
@@ -206,9 +192,7 @@
 
         <!--以下4行可以删除或改成自己的链接,但建议你在你的网站上添加一个FastAdmin的链接-->
         <li class="header" data-rel="external"><?php echo __('Links'); ?></li>
-        <li data-rel="external"><a href="https://doc.fastadmin.net" target="_blank"><i class="fa fa-list text-red"></i> <span><?php echo __('Docs'); ?></span></a></li>
-        <li data-rel="external"><a href="https://forum.fastadmin.net" target="_blank"><i class="fa fa-comment text-yellow"></i> <span><?php echo __('Forum'); ?></span></a></li>
-        <li data-rel="external"><a href="https://jq.qq.com/?_wv=1027&k=487PNBb" target="_blank"><i class="fa fa-qq text-aqua"></i> <span><?php echo __('QQ qun'); ?></span></a></li>
+        <li data-rel="external"><a href="http://www.tanzimenrou.com" target="_blank"><i class="fa fa-list text-red"></i> <span><?php echo __('Docs'); ?></span></a></li>
     </ul>
 </section>
             </aside>

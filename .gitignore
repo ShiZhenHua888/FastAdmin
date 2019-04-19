@@ -1,11 +1,5 @@
-.idea/
-
-*.idea
-
-runtime/*
-
-thinkphp/
-
-vendor/
-
+.idea
+runtime
+thinkphp
+vendor
 public/uploads/
